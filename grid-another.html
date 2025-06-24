@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Grid Practice</title>
+    <style>
+
+        body {
+            font-family: roboto;
+            margin-top: 14px;
+            margin-left: 15px;
+        }
+
+        img {
+            margin-bottom: 0;
+        }
+
+        .card {
+            display: inline-block;
+            padding: 0;
+            box-shadow: 2px 2px 4px gray;
+            margin-right: 8px;
+        }
+
+        .card-title p,
+        .card-title {
+            font-size: 15px;
+            font-weight: bold;
+            padding-left: 4px;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        .icon-mutual-friends {
+            display: grid;
+            grid-template-columns: 0.1fr 1fr;
+            column-gap: 10px;
+            margin-left: 6px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .icon {
+            border-radius: 19px;
+            margin-top: 0;
+        }
+
+        .mutual-friends-desc {
+            margin-top: 4px;
+            font-size: 13px;
+            color: rgb(127, 121, 121);
+        }
+
+        .add-friend-button-div {
+            margin-top: 5px;
+            margin-left: 7px;
+            margin-bottom: 8px;
+            justify-self: left;
+        }
+
+        .add-friend-button {
+            border-radius: 4px;
+            border: none;
+            background-color: rgb(50, 138, 220);
+            color: white;
+            font-size: 12px;
+            width: 95px;
+            height: 32px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div>
+            <img src="https://picsum.photos/180" alt="cat">
+        </div>
+        <div class="card-title">
+            <p>Oliver</p>
+        </div>
+        <div class="icon-mutual-friends">
+            <img class="icon" src="https://picsum.photos/30" alt="small cat">
+            <p class="mutual-friends-desc">2 mutual friends</p>
+        </div>
+        <div class="add-friend-button-div">
+            <button class="add-friend-button">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div>
+            <img src="https://picsum.photos/180" alt="cat">
+        </div>
+        <div class="card-title">
+            <p>Oliver</p>
+        </div>
+        <div class="icon-mutual-friends">
+            <img class="icon" src="https://picsum.photos/30" alt="small cat">
+            <p class="mutual-friends-desc">2 mutual friends</p>
+        </div>
+        <div class="add-friend-button-div">
+            <button class="add-friend-button">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div>
+            <img src="https://picsum.photos/180" alt="cat">
+        </div>
+        <div class="card-title">
+            <p>Oliver</p>
+        </div>
+        <div class="icon-mutual-friends">
+            <img class="icon" src="https://picsum.photos/30" alt="small cat">
+            <p class="mutual-friends-desc">2 mutual friends</p>
+        </div>
+        <div class="add-friend-button-div">
+            <button class="add-friend-button">Add Friend</button>
+        </div>
+    </div>
+
+</html>

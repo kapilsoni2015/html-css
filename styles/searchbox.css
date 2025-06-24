@@ -1,0 +1,113 @@
+body {
+            font-family: arial;
+        }
+
+        .input-text {
+            border-radius: 5px;
+            font-size: medium;
+            border-width: 1px;
+            border-color: rgb(207, 200, 200);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 65px;
+            margin-bottom: 55px;
+            outline: none;
+        }
+
+        .input-text-two {
+            width: 450px;
+            border-radius: 15px;
+            border-width: 1px;
+            border-color: rgb(207, 200, 200);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+            margin-right: 100px;
+            outline: none;
+        }
+
+        .email {
+            font-size: 13px;
+            color: gray;
+            margin-bottom: 4px;
+        }
+
+        .email-box {
+            border-radius: 3px;
+            border-width: 1px;
+            width: 300px;
+            outline: none;
+        }
+
+        .disclaimer {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .agree-button {
+            margin-top: 10px;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            width: 250px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: rgb(11, 102, 158);
+            margin-right: 900px;
+            margin-bottom: 50px;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+            cursor: pointer;
+        }
+
+        .agree-button:active {
+            opacity: 0.5;
+        }
+
+        .twitter-cat {
+            width: 35px;
+            height: 35px;
+            border: none;
+            border-radius: 600px;
+            object-fit: cover;
+            object-position: left;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            padding-top: 0;
+            vertical-align: middle;
+        }
+
+        .twitter-box {
+            width: 190px;
+            border: none;
+            color: gray;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            padding-top: 0;
+            vertical-align: middle;
+            outline: none;
+        }
+
+        .twitter-button {
+            width: 60px;
+            border: none;
+            color: white;
+            background-color: rgb(54, 182, 232);
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            border-radius: 13px;
+            vertical-align: middle;
+            cursor: pointer;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .twitter-button:active {
+            opacity: 0.5;
+        }

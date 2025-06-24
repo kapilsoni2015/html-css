@@ -1,0 +1,29 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+}
+.notes {
+    font-family: arial;
+    font-size: 13px;
+    margin-bottom: 300px;
+}
+
+.void-elem {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.model {
+    font-family:Montserrat;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.touchless {
+    font-family: Montserrat;
+    text-decoration: underline;
+    margin-top: 0;
+}

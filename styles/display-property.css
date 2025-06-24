@@ -1,0 +1,41 @@
+
+        .email,
+        .name {
+            display: block;
+            margin-top: 8px;
+        }
+
+        .chat-survey {
+            display: inline-block;
+            width: 400px;
+            vertical-align: middle;
+        }
+
+        .yes-button {
+            vertical-align: middle;
+        }
+
+        .no-button {
+            vertical-align: middle;
+        }
+
+        .google-logo {
+            display: block;
+            width: 300px;
+            justify-self: center;
+        }
+
+        .google-search-box {
+            display: block;
+            width: 400px;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+            border: none;
+            border-radius: 18px;
+            margin-top: 10px;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            text-align: left;
+            padding-left: 10px;
+            justify-self: center;
+            outline: none;
+        }

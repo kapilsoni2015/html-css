@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Twitter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            margin-top: 15px;
+            margin-left: 25px;
+            font-family: roboto;
+        }
+
+        p {
+            margin-top: 4px;
+        }
+
+        img {
+            border-radius: 38px;
+            object-fit: contain;
+            box-shadow: 2px 3px 7px rgb(115, 111, 111);
+        }
+
+        .parent-grid {
+            display: grid;
+            grid-template-columns: 55px 0.25fr 0.9fr;
+            column-gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .cat-details {
+            line-height: 8px;
+        }
+
+        .cat-title {
+            font-size: 16px;
+            font-weight: bolder;
+        }
+
+        .cat-review,
+        .cat-desc {
+            color: rgb(132, 126, 126);
+            font-size: 15px;
+        }
+
+        .follow-button {
+            margin-top: 5px;
+            border: none;
+            border-radius: 6px;
+            width: 70px;
+            height: 35px;
+            color: white;
+            background-color: rgb(25, 168, 224);
+            font-size: 15px;
+            font-weight: bolder;
+            cursor: pointer;
+            box-shadow: 2px 3px 7px black;
+        }
+
+        .follow-button:hover {
+            opacity: 0.7;
+        }
+
+        .follow-button:active {
+            opacity: 0.3;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="parent-grid">
+        <div class="image-div">
+        <img src="https://picsum.photos/55" alt="logo">
+        </div>
+        <div class="cat-details">
+            <p class="cat-title">Oliver</p>
+            <p class="cat-desc">The cat</p>
+            <p class="cat-review">Popular</p>
+        </div>
+        <div class="button-div">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+
+    <div class="parent-grid">
+        <div class="image-div">
+        <img src="https://picsum.photos/55" alt="logo">
+        </div>
+        <div class="cat-details">
+            <p class="cat-title">Mimi</p>
+            <p class="cat-desc">Sleepy cat</p>
+            <p class="cat-review">Popular</p>
+        </div>
+        <div class="button-div">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+
+    <div class="parent-grid">
+        <div class="image-div">
+        <img src="https://picsum.photos/55" alt="logo">
+        </div>
+        <div class="cat-details">
+            <p class="cat-title">Rex</p>
+            <p class="cat-desc">Happy Bulldog</p>
+            <p class="cat-review">Popular</p>
+        </div>
+        <div class="button-div">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+
+</body>
+</html>

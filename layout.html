@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: roboto;
+        }
+
+        .parent-grid {
+            display: grid;
+            row-gap: 15px;
+        }
+
+        .cat-pic-div {
+            display: inline-block;
+        }
+
+        .cat-pic {
+            vertical-align: middle;
+            width: 60px;
+            border-radius: 90px;
+            height: 60px;
+            margin-right: 10px;
+            object-position: left;
+            object-fit: cover;
+        }
+
+        .cat-details-div {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 100px;
+        }
+
+        .cat-details {
+            color: gray;
+            font-size: 14px;
+        }
+
+        .cat-details-bold {
+            font-weight: bold;
+        }
+
+        .cat-para {
+            line-height: 4px;
+        }
+
+        .follow-button-div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .follow-button {
+            margin-top: 0;
+            font-size: medium;
+            color: white;
+            border: none;
+            background-color: rgb(0, 160, 224);
+            border-radius: 5px;
+            height: 30px;
+            width: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent-grid">
+    <div class="parent-div">
+        <div class="cat-pic-div">
+            <img class="cat-pic" src="images/twitter-cat.jpg" alt="cat photo">
+        </div>
+        <div class="cat-details-div">
+            <div class="cat-para">
+                <p class="cat-details-bold"><strong>Oliver</strong></p>
+                <p class="cat-details">the cat</p>
+                <p class="cat-details">Popular</p>
+            </div>
+        </div>
+        <div class="follow-button-div">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+
+
+    <div class="parent-div">
+        <div class="cat-pic-div">
+            <img class="cat-pic" src="images/cat-twitter.jpeg" alt="cat photo">
+        </div>
+        <div class="cat-details-div">
+            <div class="cat-para">
+                <p class="cat-details-bold"><strong>Mimy</strong></p>
+                <p class="cat-details">sleepy cat</p>
+                <p class="cat-details">Popular</p>
+            </div>
+        </div>
+        <div class="follow-button-div">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+
+
+    <div class="parent-div">
+        <div class="cat-pic-div">
+            <img class="cat-pic" src="images/cat3.jpg" alt="cat photo">
+        </div>
+        <div class="cat-details-div">
+            <div class="cat-para">
+                <p class="cat-details-bold"><strong>Rex</strong></p>
+                <p class="cat-details">happy bulldog</p>
+                <p class="cat-details">Popular</p>
+            </div>
+        </div>
+        <div class="follow-button-div">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

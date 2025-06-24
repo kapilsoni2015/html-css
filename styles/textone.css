@@ -1,0 +1,64 @@
+   /*paragraph html element by default comes with margin of 14px*/
+    /*CSS specificity - if we have multiple line setting the same property, there is actually a priority the browser follows.*/
+    /*specific selector has more priority than general selector*/
+    /*For example - class name selector has higher priority than a element name selector*/
+
+    p {
+        font-family: arial;
+    }
+
+    .video-title {
+        font-weight: bold;
+        font-size: 20px;
+        width: 300px;
+        /*line spacing*/
+        line-height: 28px;
+        margin-bottom: 6px;
+    }
+
+    .video-stat {
+        font-size: 12px;
+        color: gray;
+        margin-top: 5px;
+    }
+
+    .author {
+        font-size: 13px;
+        margin-top: 19px;
+        color: rgb(62, 60, 60);
+    }
+
+    .desc {
+        font-size: 14px;
+        width: 340px;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 22px;
+        color: rgb(56, 55, 55);
+        margin-bottom: 70px;
+    }
+
+    .red-statment {
+        font-size: 13px;
+        text-align: center;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .shop-now {
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    .shop-now:hover {
+        text-decoration: underline;
+    }
+
+    .apple-logo {
+        height:40px;
+        width: 70px;
+        margin-left: 0;
+        padding-left: 0px;
+    }

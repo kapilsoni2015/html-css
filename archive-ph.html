@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Archives - Kapil</title>
+    <style>
+
+        body {
+            background-color: #FFFAE1;
+            font-family: sans-serif;
+            margin-left: 390px;
+            margin-right: 390px;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 15px;
+            vertical-align: top;
+            margin-right: 6px;
+        }
+
+        .parent-top-div {
+            display: grid;
+            grid-template-columns: 190px 1fr;
+        }
+
+        .archive-top-left-div {
+            width: auto;
+            text-align: center;
+        }
+
+        .archive-top-left-name {
+            margin-top: 12px;
+            font-size: x-large;
+            margin-bottom: 0;
+        }
+
+        .archive-top-left-desc {
+            margin-top: 0;
+            font-size: 13px;
+        }
+
+        .archive-top-right-div {
+            text-align: right;
+            line-height: 15px;
+            margin: 10px;
+        }
+
+        .email-para {
+            display: inline-block;
+            margin-right: 8px;
+            font-size: small;
+        }
+
+        .ask-para {
+            display: inline-block;
+            margin-right: 8px;
+            font-size: small;
+        }
+
+        .faq-para {
+            display: inline-block;
+            margin-right: 18px;
+            font-size: small;
+        }
+
+        .donate-button {
+            background-color: rgb(235, 235, 15);
+            border: none;
+            font-weight: bolder;
+            color: black;
+            border-radius: 12px;
+            width: 76px;
+            height: 25px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        .donate-button:hover {
+            opacity: 0.8;
+        }
+
+        .donate-button:active {
+            opacity: 0.5;
+        }
+
+        .submit-form {
+            margin-top: 78px;
+            background-color: rgb(180, 0, 16);
+            padding: 12px;
+        }
+
+        .submit-form-label {
+            display: block;
+            color: white;
+            margin-bottom: 8px;
+            font-weight: bolder;
+        }
+
+        .input-url-div {
+            display: grid;
+            grid-template-columns: 1fr 0.1fr;
+        }
+
+        .input-url {
+            height: 22px;
+        }
+
+        .submit-search {
+            margin-top: 35px;
+            background-color: rgb(29, 45, 64);
+            padding: 12px;
+        }
+
+        .search-button,
+        .save-button {
+            margin-left: 10px;
+        }
+
+        .footer-para,
+        .footer-ul,
+        .archive-middle-para-end,
+        .archive-middle-ul,
+        .archive-middle-para-start {
+            font-size: 12px;
+            line-height: 23px;
+        }
+
+        .footer-ul {
+            line-height: 17px;
+        }
+
+        .archive-middle-para-end {
+            line-height: 17px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent-top-div">
+        <div class="archive-top-left-div">
+            <p class="archive-top-left-name">archive.today</p>
+            <p class="archive-top-left-desc">webpage capture</p>
+        </div>
+        <div class="archive-top-right-div">
+            <div class="archive-top-right-content">
+                <p class="email-para"><img class="email-logo" src="images/email-logo.svg" alt="email logo">email</p>
+                <p class="ask-para"><img class="ask-logo" src="images/askme-logo.svg" alt="ask me logo">askme</p>
+                <p class="faq-para"><img class="faq-logo" src="images/faq-logo.svg" alt="faq logo">FAQ</p>
+                <button class="donate-button">Donate</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+    <form class="submit-form"">
+        <label class="submit-form-label">My url is alive and I want to archive its content</label>
+        <div class="input-url-div">
+            <input class="input-url" type="url" placeholder="https://www.domain.com/url">
+            <button class="save-button">save</button>
+        </div>
+    </form>
+    </div>
+
+
+    <div class="archive-middle-section-div">
+        <p class="archive-middle-para-start"><strong>Archive.today</strong> is a time capsule for web pages!<br>
+        It takes a 'snapshot' of a webpage that will always be online even if the original page disappears.<br>
+        It saves a text and a graphical copy of the page for better accuracy<br>
+        and provides a short and reliable link to an unalterable record of any web page<br>
+        including those from Web 2.0 sites:<br></p>
+        <ul class="archive-middle-ul">
+            <li><a href="https://archive.is/2020.04.21/https://rt.live/">https://archive.is/2020.04.21/rt.live/</a></li>
+            <li><a href="https://archive.is/2014.06.26/https://www.google.com/maps/@-12.1858563,96.8293918,366m/data=!3m1!1e3">https://archive.is/2014.06.26/google.com/maps/…</a></li>
+        </ul>
+        <p class="archive-middle-para-end">This can be useful if you want to take a 'snapshot' of a page which could change soon: price list, job offer, real estate listing, drunk blog post, ...<br>
+        Saved pages will have no active elements and no scripts, so they keep you safe as they cannot have any popups or malware!<br></p>
+    </div>
+
+
+    <div>
+    <form class="submit-search"">
+        <label class="submit-form-label">I want to search the archive for saved snapshots</label>
+        <div class="input-url-div">
+            <input class="input-url" type="url" placeholder="query">
+            <button class="search-button">search</button>
+        </div>
+    </form>
+    </div>
+
+
+    <div class="footer">
+        <p class="footer-para"><strong>Search queries by example</strong></p>
+        <div class="footer-bullets-div">
+            <ul class="footer-ul">
+                <li>for snapshots from the host microsoft.com</li>
+                <li>for snapshots from microsoft.com and all its subdomains (e.g. www.microsoft.com)</li>
+                <li>for snapshots from exact url (search is case-sensitive)</li>
+                <li>for snapshots from urls starting with http://twitter.com/burg</li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>

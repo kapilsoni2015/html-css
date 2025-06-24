@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /*CSS box model is - margin, border, padding*/
+    /*to determine how much space an element takes up*/
+    /*to determine how far it is away from other elements*/
+    /*avoid height and width usage and use css box model.*/
+    .join {
+        background-color: white;
+        color: blue;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 1.2rem;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        cursor: pointer;
+        border-color: blue;
+        transition: 1s;
+        border-radius: 3px;
+    }
+
+    .join:hover {
+        background-color: blue;
+        color: white;
+        opacity: 0.6;
+    }
+
+    .join:active {
+        opacity: 0.3;
+    }
+
+</style>
+<body>
+    <button class="join">JOIN</button>
+</body>
+</html>

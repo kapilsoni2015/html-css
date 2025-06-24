@@ -1,0 +1,66 @@
+   .redirect {
+        color: rgb(81, 139, 162);
+        font-size: medium;
+        transition: color 0.4s;
+    }
+
+    .redirect:hover {
+        color: rgb(206, 145, 206);
+    }
+
+    .paraone {
+        color: black;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+
+    .price {
+        color: green;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .delivery {
+        color: black;
+        font-size: large;
+    }
+
+    .cart {
+        color: black;
+        font-size: 15px;
+        border: none;
+        background-color: rgb(215, 215, 112);
+        border-radius: 15px;
+        height: 35px;
+        width: 135px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .cart:hover {
+        background-color: rgb(240, 240, 148);
+    }
+
+    .cart:active {
+        background-color: rgb(244, 244, 183);
+    }
+
+    .buy {
+        color: black;
+        font-size: 15px;
+        border: none;
+        background-color: rgb(212, 150, 33);
+        border-radius: 15px;
+        height: 35px;
+        width: 135px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .buy:hover {
+        background-color: rgb(235, 177, 70);
+    }
+
+    .buy:active {
+        background-color: rgb(249, 204, 121);
+    }
